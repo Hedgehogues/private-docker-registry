@@ -1,5 +1,5 @@
 # docker-registry
-This is docker-image for private docker-registry
+This is docker-image for private docker-registry. You can see docker-hub [page](https://hub.docker.com/_/registry).
 
 # Start
 
