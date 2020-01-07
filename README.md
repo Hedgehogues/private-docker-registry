@@ -40,7 +40,8 @@ Now, you can see your image into registry by endpoint (with authentication):
 
 You can see more info:
 
-* https://habr.com/ru/post/320884/
+* [SSL](https://habr.com/ru/post/320884/)
+* [docker-registry API](https://docs.docker.com/registry/spec/api/)
     
 
 
