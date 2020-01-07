@@ -26,6 +26,10 @@ You need to use htpassword.
 Before push, you need [login](https://docs.docker.com/engine/reference/commandline/login/):
 
     docker login <url>
+    
+Set tag for image:
+
+    docker tag <image-id> <url>/<tag>
 
 After that, docker asks you login and password. Now, you can push concrete image by tag:
 
