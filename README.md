@@ -20,3 +20,20 @@ You need to use htpassword.
         htpasswd -sc htpasswd.txt <some_username>
 
     You can use [this](http://www.htaccesstools.com/htpasswd-generator/) generator.
+    
+# Push image
+
+Before push, you need [login](https://docs.docker.com/engine/reference/commandline/login/):
+
+    docker login <url>
+
+After that, docker asks you login and password. Now, you can push concrete image by tag:
+
+    docker push <url>/<tag>
+    
+Now, you can see your image into registry by endpoint (with authentication):
+
+    <url>/v2/_catalog
+    
+
+
