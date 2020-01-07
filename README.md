@@ -35,5 +35,12 @@ Now, you can see your image into registry by endpoint (with authentication):
 
     <url>/v2/_catalog
     
+    
+# References
+
+You can see more info:
+
+* https://habr.com/ru/post/320884/
+    
 
 
